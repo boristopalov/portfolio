@@ -78,6 +78,7 @@ const Home: NextPage = () => {
           <h3>boris topalov</h3>
           <span>analyst &#38; developer</span>
           <br />
+          <span>new york, ny </span>
           <span>boristopalov1@gmail.com</span>
           <div className={styles.topMargin}>
             <a
@@ -99,9 +100,9 @@ const Home: NextPage = () => {
               <Image src={emailIcon} alt="Email me" width={25} height={25} />
             </a>
           </div>
-          <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+          {/* <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
             <button className={styles.resumeButton}>Resume</button>
-          </a>
+          </a> */}
         </div>
         <div className={styles.meBlock}>
           <div className={styles.meText}>
