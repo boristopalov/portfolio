@@ -27,6 +27,7 @@ import solidityIcon from "../media/solidity.svg";
 import figmaIcon from "../media/figma.svg";
 import liveArrow from "../media/arrow_with_text.png";
 import React, { useState } from "react";
+import Head from "next/head";
 
 const Home: NextPage = () => {
   const [aboutSectionDisplayed, setAboutSectionDisplayed] = useState("skills");
@@ -64,6 +65,10 @@ const Home: NextPage = () => {
 
   return (
     <div className={styles.center}>
+      <Head>
+        <title>Boris Topalov</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <div className={styles.container}>
         <div className={styles.leftSide}>
           <div className={styles.imageWrapper}>
