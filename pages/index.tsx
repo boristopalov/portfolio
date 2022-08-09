@@ -281,16 +281,16 @@ const Home: NextPage = () => {
             <ProjectCard
               title="wordle versus"
               description="Play Wordle against your friends. Written in Typescript and features real-time communication using websockets, custom user authentication &#38; authorization, custom room creation, game persistence across sessions, and more."
-              ghUrl="https://github.com/boristopalov/next-wordle"
-              liveUrl="https://github.com/boristopalov/next-wordle"
+              ghUrl="https://github.com/boristopalov/wordleversus"
+							liveUrl="https://silver-lollipop-de2460.netlify.app"
               stack={[next, typescript, ws, node, postgres, graphql]}
               image={wordlePng}
             />
             <ProjectCard
               title="reddit clone"
               description="A Reddit clone written in Typescript. Features include user authentication &#38; authorization, post creation in subreddits, upvoting/downvoting, and commenting."
-              ghUrl="https://github.com/boristopalov/weddit"
-              liveUrl="https://github.com/boristopalov/weddit"
+              ghUrl="https://github.com/boristopalov/reddit-clone"
+							liveUrl="https://super-daifuku-b75fc7.netlify.app"
               stack={[next, typescript, graphql, node, postgres]}
               image={redditPng}
             />
