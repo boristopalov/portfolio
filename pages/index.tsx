@@ -282,7 +282,7 @@ const Home: NextPage = () => {
               title="wordle versus"
               description="Play Wordle against your friends. Written in Typescript and features real-time communication using websockets, custom user authentication &#38; authorization, custom room creation, game persistence across sessions, and more."
               ghUrl="https://github.com/boristopalov/wordleversus"
-							liveUrl="https://silver-lollipop-de2460.netlify.app"
+							liveUrl="https://github.com/boristopalov/wordleversus"
               stack={[next, typescript, ws, node, postgres, graphql]}
               image={wordlePng}
             />
@@ -290,7 +290,7 @@ const Home: NextPage = () => {
               title="reddit clone"
               description="A Reddit clone written in Typescript. Features include user authentication &#38; authorization, post creation in subreddits, upvoting/downvoting, and commenting."
               ghUrl="https://github.com/boristopalov/reddit-clone"
-							liveUrl="https://super-daifuku-b75fc7.netlify.app"
+							liveUrl="https://github.com/boristopalov/reddit-clone"
               stack={[next, typescript, graphql, node, postgres]}
               image={redditPng}
             />
@@ -306,7 +306,7 @@ const Home: NextPage = () => {
               title="spotify habits"
               description="A web app written in JavaScript that uses the Spotify API to show a user's listening habits. Users can view their top songs and artists, as well as the moods of their recent music."
               ghUrl="https://github.com/boristopalov/spotifyhabits"
-              liveUrl="https://spotifyhabits.herokuapp.com/"
+              liveUrl="https://github.com/boristopalov/spotifyhabits"
               stack={[reactIcon, node, express]}
               image={spotifyPng}
             />
